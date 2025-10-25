@@ -97,3 +97,58 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Rider IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 编译输出
+bin/
+obj/
+build/
+out/
+target/
+*.exe
+*.dll
+*.pdb
+*.min.*
+*.class
+*.jar
+
+# 依赖
+packages/
+node_modules/
+jspm_packages/
+bower_components/
+
+# 日志和临时文件
+*.log
+logs/
+*.tmp
+*.temp
+._*
+Thumbs.db
+
+# 环境配置
+.env
+.env.*.local
+
+# 用户特定文件
+*.user
+*.suo
+*.userosscache
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# 备份文件
+*.bak
+*.backup
